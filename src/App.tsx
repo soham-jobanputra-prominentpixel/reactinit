@@ -26,7 +26,7 @@ function App() {
 
           {/* Counter */}
           <div className="flex items-center space-x-4 mt-6">
-            <Button onClick={() => setCounter(counter + 1)}>Increment</Button>
+            <Button className="hover:cursor-pointer" onClick={() => setCounter(counter + 1)}>Increment</Button>
             <span className="text-2xl font-semibold">{counter}</span>
           </div>
 
