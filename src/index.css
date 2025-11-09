@@ -173,9 +173,6 @@
 
 /* Apply as Tailwind base */
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
   html {
     font-family: "Geist", sans-serif;
   }
